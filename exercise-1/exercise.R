@@ -28,4 +28,4 @@ too.expensive = (total.cost > 1000)
 
 # Create a variable `max.puppies`, which is the number of puppies you can afford for $1,000.
 
-max.puppies = total.cost / 1000
+max.puppies = puppy.price / 1000
