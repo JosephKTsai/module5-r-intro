@@ -35,4 +35,4 @@ too.expensive = (total.cost.tip > price.limit)
 # Create a variable `max.friends`, which is the maximum number of friends you can invite that is in range
 # of your price limit
 
-max.friends = (price.limit / meal.price)
+max.friends = floor(price.limit / meal.price)
