@@ -18,21 +18,21 @@ meal.price <- 22
 
 # Create a variable `total.cost` that has the total cost of your bill
 
-total.cost = (meal.price * friends)
+total.cost <- (meal.price * friends)
 
 # Create a variable 'total.cost.tip' to be the total cost including a 15% tip
 
-total.cost.tip = total.cost + (total.cost *.15)
+total.cost.tip <- total.cost + (total.cost *.15)
 
 # Create a variable 'price.limit' set to your spending budget
 
-price.limit = 25
+price.limit <- 25
 
 # Create a boolean variable `too.expensive`, set to TRUE if the cost with the tip is greater than the price limit
 
-too.expensive = (total.cost.tip > price.limit)
+too.expensive <- (total.cost.tip > price.limit)
 
 # Create a variable `max.friends`, which is the maximum number of friends you can invite that is in range
 # of your price limit
 
-max.friends = floor(price.limit / meal.price)
+max.friends <- floor(price.limit / meal.price)
